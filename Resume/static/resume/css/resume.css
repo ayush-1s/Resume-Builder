@@ -1,0 +1,263 @@
+@media screen {
+    
+    /* Navigation Bar Settings On Screen */
+    nav {
+        background-color: #9A825F;            /* Sets Background Color */
+    }
+
+    /* Body Settings On Screen */
+    body {
+        font-family: 'Ubuntu', sans-serif;            /*  Sets Font Family */
+        font-size: 12pt;                            /* Sets Font Size */
+    }
+
+    /* Header Settings On Screen */
+    h1 {       
+        font-size: 3rem;                                
+        text-transform: uppercase;                              /* Sets Text to Uppercase */
+        color: #63213A;                                       /* Sets Font Color */
+        font-family: 'Hind Siliguri', sans-serif;                  /* Sets Font Family */
+        font-weight: 500;                                       /* Sets Font Weight */
+    }
+
+    h4 {
+        color: #63213A;                                       /* Sets Font Color */
+        font-family: 'Hind Siliguri', sans-serif;            /* Sets Font Family */
+        text-transform: uppercase;
+        font-weight: 600;                                 /* Sets Font Weight */
+    }
+
+    h5 {             
+        font-family: 'Lato', sans-serif;            /* Sets Font Family */
+        text-transform: capitalize;
+        font-weight: 600;                                 /* Sets Font Weight */
+    }
+
+    h6 {
+        text-transform: capitalize;                       /* Sets Text to Capitalize */
+        font-family: 'Hind Siliguri', sans-serif;            /* Sets Font Family */
+        font-weight: 500;                                 /* Sets Font Weight */
+        margin-bottom: -2px;
+    }
+
+    /* Link/URL Settings On Screen */
+    a {
+        color: #63213A;                   /* Sets Link Color */
+        font-weight: 450;                   /* Body Settings On Screen */
+    }
+
+    a:hover {
+        color: #6c757d;                   /* Sets Link Color */
+        font-weight: 450;                   /* Body Settings On Screen */
+        text-decoration: none;              /* Removes Underline */
+    }
+
+    /* Footer Settings On Screen */
+    footer {
+        display: none;             /* Centers Text */
+    }
+
+    svg {
+        color:#63213A;
+    }
+
+    /* Class Formatting On Screen */
+    .annotation {
+        font-size: 12pt;                        /* Sets font size */
+        color: #6c757d;                       /* Sets Color */
+        text-transform: uppercase;              /* Sets Uppercase Text */
+    }
+
+    .badge {
+        font-size: 10px;
+        text-transform: capitalize;
+        font-weight: 500;
+        margin: -2px;
+    }
+
+    .closing, 
+    .signature {
+        float: right;               /* Sets Float to Right */
+        clear: right;               /* Sets Clear Fix on Right */
+    }
+
+    .closing h5 {
+        color: #63213A;
+    }
+
+    .signature {
+        opacity: 80%;               /* Sets Opacity of Image */
+        z-index: -1;                /* Sets Index To Back */
+        width: 200px;               /* Sets Width of Image */
+        height: auto;               /* Sets Height of Image */
+    }
+
+    .subsection {
+        padding: 5px;
+    }
+
+    #contactText {
+        text-align: right;
+        float: right;
+        position: relative;
+        display: block;                   /* Displays Element */
+        font-weight: 500;                       /* Sets Font Weight */
+    }
+
+    #covHeader h2 {
+        color: #63213A;
+    }
+
+    #objBody {
+        text-align: justify;                /* Justifies Text */
+    }
+
+    #empJobBody {
+        border-left: #CCC;
+        border-width: 0 0 0 1px;
+        border-style: solid;
+        padding-left: 15px;
+    }
+
+    #empJobBody svg {
+        margin-left: -25px;
+    }
+
+    #leftPanel {
+        margin-bottom: 30px;
+    }
+
+}
+
+@media print {
+
+    @page {
+        size: auto;                  /* Sets Page Dimensions For Print */
+    }
+
+    body {
+        font-family: 'Ubuntu', sans-serif;            /*  Sets Font Family */
+        font-size: 14pt;                            /* Sets Font Size */
+    }
+
+    body body p, ul {
+        line-height: 1.8;               /* Sets Line Height */
+    }
+
+    /* Header Settings On Screen */
+    h1 {       
+        font-size: 3rem;                                
+        text-transform: uppercase;                              /* Sets Text to Uppercase */
+        color: #63213A;                                       /* Sets Font Color */
+        font-family: 'Hind Siliguri', sans-serif;                  /* Sets Font Family */
+        font-weight: 500;                                       /* Sets Font Weight */
+    }
+
+    h4 {
+        color: #63213A;                                       /* Sets Font Color */
+        font-family: 'Hind Siliguri', sans-serif;            /* Sets Font Family */
+        text-transform: uppercase;
+        font-weight: 500;                                 /* Sets Font Weight */
+    }
+
+    h5 {             
+        font-family: 'Lato', sans-serif;            /* Sets Font Family */
+        text-transform: capitalize;
+        font-weight: 600;                                 /* Sets Font Weight */
+    }
+
+    h6 {
+        text-transform: capitalize;                       /* Sets Text to Capitalize */
+        font-family: 'Hind Siliguri', sans-serif;            /* Sets Font Family */
+        font-weight: 500;                                 /* Sets Font Weight */
+    }
+
+    /* Link/URL Settings On Screen */
+    a {
+        color: #63213A;                   /* Sets Link Color */
+        font-weight: 450;                   /* Body Settings On Screen */
+    }
+
+    a:hover {
+        color: #6c757d;                   /* Sets Link Color */
+        font-weight: 450;                   /* Body Settings On Screen */
+        text-decoration: none;              /* Removes Underline */
+    }
+
+    svg {
+        color:#63213A;
+    }
+
+    footer {
+        display: none;
+    }
+
+    /* Class Formatting On Screen */
+    .annotation {
+        font-size: 14pt;                        /* Sets font size */
+        color: #6c757d;                       /* Sets Color */
+        text-transform: uppercase;              /* Sets Uppercase Text */
+    }
+
+    .badge {
+        font-size: 16px;
+        text-transform: capitalize;
+        font-weight: 500;
+        border-style: none;
+    }
+
+    .closing, 
+    .signature {
+        float: right;               /* Sets Float to Right */
+        clear: right;               /* Sets Clear Fix on Right */
+    }
+
+    .closing h5 {
+        color: #63213A;
+    }
+
+    .signature {
+        opacity: 80%;               /* Sets Opacity of Image */
+        z-index: -1;                /* Sets Index To Back */
+        width: 200px;               /* Sets Width of Image */
+        height: auto;               /* Sets Height of Image */
+    }
+
+    #contactText {
+        text-align: right;
+        float: right;
+        position: relative;
+        display: block;                   /* Displays Element */
+        font-weight: 500;                       /* Sets Font Weight */
+    }
+
+    #covHeader h2 {
+        color: #63213A;
+    }
+
+    #jobTitle {
+        margin-top: 10px;                      /* Sets Margin Top */
+        padding-top: 10px;                     /* Sets Padding Top */
+    }
+
+    #objBody {
+        margin-top: 10px;                   /* Sets Margin Top */
+        text-align: justify;                /* Justifies Text */
+    }
+
+    #empJobBody {
+        border-left: #CCC;
+        border-width: 0 0 0 1px;
+        border-style: solid;
+        padding-left: 15px;
+    }
+
+    #empJobBody svg {
+        margin-left: -27px;
+    }
+
+    #leftPanel {
+        margin-bottom: 30px;
+    }
+
+}
